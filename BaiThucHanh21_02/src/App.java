@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class tinhtongchuso {
+public class App {
     private static Scanner sc = new Scanner(System.in);
 
      
