@@ -6,16 +6,17 @@ import java.util.Scanner;
 
 public class Bai6 {
     public static void main(String[] args) {
-        int i , giaithua;
+        int i = 1 , giaithua = 1, n;
         System.out.println("Nhap vao so nguyen bat ky");
         Scanner sc = new Scanner(System.in);
-        i = sc.nextInt();
+        n = sc.nextInt();
 
-        do giaithua = i * (i-1);
-        while (i > 0);  
+        do { giaithua *= i;
+            i++;}
+        while (i <= n);  
         
         
-        System.out.println("giai thua cua " + i + " la " + giaithua);   
+        System.out.println("giai thua cua " + n + " la " + giaithua);   
 
 
         sc.close();
